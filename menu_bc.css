@@ -1,0 +1,20 @@
+body {
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.menu_img {
+     height:1100px;
+     width:100%;
+     background-image: url(images/menu1.png);
+     background-repeat: no-repeat;
+     background-size:100% 100%;
+}
+.menu_img1 {
+    height:1100px;
+    width:100%;
+    background-image: url(images/menu2.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}

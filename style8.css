@@ -1,0 +1,106 @@
+.container_e {
+    height:100%;
+    width:100%;
+    margin-top:6%;
+}
+.container_e > .rowf {
+    height:75%;
+    width:100%;
+    display:flex;
+    padding-left:4%;
+    padding-right:5%;
+}
+.rowf > .colcd {
+    margin-right:10px;
+    height:100%;
+    width:35%;
+
+}
+.rowf > .colh {
+    margin:10px;
+    height:100%;
+    width:35%;
+   
+}
+.rowf > .cola {
+    margin:10px;
+    height:100%;
+    width:35%;
+
+}
+.icon_chef {
+    position:absolute;
+    height:70%;
+    width:32%;
+    padding-left:120px;
+    padding-bottom:60px;
+}
+.text_chef {
+    position:absolute;
+    height:70%;
+    width:32%;
+   
+}
+.text_chef > .cdc {
+    text-align:center;
+    margin-top:100px;
+    font-size:37px;
+    color: #333333;
+    font-family:'Monotype corsiva';
+    font-weight:bold;
+}
+.uline_c {
+    margin-left: 50px; 
+   padding-left:0px;
+  
+}
+.underline_c {
+   display:inline-block;
+   height:20px; 
+}
+.uline_c > #line1_c {
+   margin-bottom:15px;
+
+}
+.uline_c > #star_c {
+  
+   margin-top:10px;
+   
+}
+.uline_c > #line2_c {
+  margin-bottom:15px;
+   
+}
+
+.under_c {
+   margin-left:5px;
+   height:2px;
+   margin-top:20px;
+   width:140px;
+   background-color: #999999;
+}
+.cd_text {
+    word-wrap:break-word;
+    padding-left:35px;
+    text-align:center;
+    font-size:18px;
+    margin-right:45px;
+    letter-spacing:1px;
+}
+.menubtn2 {
+    height:45px;
+    width:180px;
+    border-radius:28px;
+    margin-left:44%;
+    margin-top:43%;
+    padding-top: 6px; 
+    background-color: #E94E3D;
+    text-align:center;
+    font-size:25px;
+    font-family:'Cambria';
+    color:white;
+}
+.menubtn2:hover {
+    cursor:pointer;
+    background-color: #E94E2D;
+  }

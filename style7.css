@@ -1,0 +1,171 @@
+.container_t {
+    margin-top:10%;
+    height:300px;
+    width:100%;
+    padding-left:9%;
+    padding-right:30px;
+    display:flex;
+}
+.container_t .col {
+    height:100%;
+    width:22%;
+    margin-bottom:3px; 
+    align-items: center;   
+}
+#burger_f {
+    background-image: url("images/1s.jpg");
+    background-repeat: no-repeat;
+    /* margin-left:15px; */
+}
+.flip1 {
+    height:160px;
+    width:160px;
+    margin-top:23%;
+    margin-left:24%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition:all 0.6s;
+    /* box-shadow:2px 2px 1px #E8E5E5; */
+}
+.hburger {
+    height:200px;
+    width:100px;
+    font-size:27px;
+    margin-top:40%;
+    padding-top:35%;
+    /* word-wrap: break-word; */
+    font-weight:bold;
+    color: #E94E3D;
+    margin-left:19%;
+    text-align: center;
+}
+#burger_f:hover .hburger {
+    color: #FFFFFF;
+    transform: rotateY(180deg);
+}
+#burger_f:hover .flip1{
+    transform:rotateY(180deg);
+    background-color: #E94E3D;
+}
+#burger_f:hover {
+    transform:scale(1.1);
+    z-index:3;
+}
+#hotdog_f {
+    background-image: url("images/hds.jpg");
+    background-repeat: no-repeat;
+    
+}
+.flip2 {
+    height:160px;
+    width:160px;
+    margin-top:23%;
+    margin-left:24%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition:all 0.6s;
+    /* box-shadow:2px 2px 1px #E8E5E5; */
+}
+.hhotdog {
+    height:200px;
+    width:130px;
+    word-wrap: break-word; 
+    font-size:27px;
+    margin-top:35%;
+    padding-top:25%;
+    font-weight:bold;
+    color: #E94E3D;
+    margin-left:10%;
+    text-align: center;
+}
+#hotdog_f:hover .hhotdog {
+    color: #FFFFFF;
+    transform: rotateY(180deg);
+}
+#hotdog_f:hover .flip2 {
+    transform:rotateY(180deg);
+    background-color: #E94E3D;
+}
+#hotdog_f:hover {
+    transform:scale(1.1);
+    z-index:3;
+}
+
+#bowl_f {
+    background-image: url("images/bowls.jpg");
+    background-repeat: no-repeat;
+}
+.flip3 {
+    height:160px;
+    width:160px;
+    margin-top:23%;
+    margin-left:24%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition:all 0.6s;
+    /* box-shadow:2px 2px 1px #E8E5E5; */
+}
+.hbowl {
+    height:200px;
+    width:130px;
+    word-wrap: break-word;
+    font-weight:bold;
+    font-size:27px;
+    margin-top:35%;
+    padding-top:33%;
+    color: #E94E3D;
+    margin-left:10%;
+    text-align: center;
+}
+#bowl_f:hover .hbowl {
+    color: #FFFFFF;
+    transform: rotateY(180deg);
+}
+#bowl_f:hover .flip3 {
+    transform:rotateY(180deg);
+    background-color: #E94E3D;
+}
+#bowl_f:hover {
+    transform:scale(1.1);
+    z-index:3;
+}
+
+
+#salad_f {
+    background-image: url("images/salads.jpg");
+    background-repeat: no-repeat;
+}
+.flip4 {
+    height:160px;
+    width:160px;
+    margin-top:23%;
+    margin-left:24%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition:all 0.6s;
+    /* box-shadow:2px 2px 1px #E8E5E5; */
+}
+.hsalad {
+    height:200px;
+    width:130px;
+    word-wrap: break-word;
+    font-weight:bold;
+    font-size:27px;
+    margin-top:35%;
+    padding-top:35%;
+    color: #E94E3D;
+    margin-left:10%;
+    text-align: center;
+}
+#salad_f:hover .hsalad {
+    color: #FFFFFF;
+    transform: rotateY(180deg);
+}
+#salad_f:hover .flip4 {
+    transform:rotateY(180deg);
+    background-color: #E94E3D;
+}
+#salad_f:hover {
+    transform:scale(1.1);
+    z-index:3;
+}

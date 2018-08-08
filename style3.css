@@ -1,0 +1,125 @@
+.progress_f {
+    position:absolute;
+    height:100%;
+    width:100%;
+    margin-top:10%;
+    /* background-color: red;  */
+    background-image: url(images/construction.jpg); 
+    background-repeat: no-repeat; 
+    background-size:100% 100%; 
+
+}
+.fade_progress {
+    position:absolute;
+    height:100%;
+    width:100%;
+    margin-top:10%;
+    background-color: rgba(0,0,0,0.2);
+}
+.logo_progress {
+    position:absolute;
+    height:180px;
+    width:180px;
+  /*   background-color: pink; */
+  background-image: url(images/logos.jpg);
+    margin-top:3%;
+    border-radius:50%;
+    margin-left:46%;
+}
+.progress_up {
+    height:100px;
+    width:75%;
+    margin-left:15%;
+    margin-top:60px;
+}
+.head_p {
+     display:inline-block;
+    height:100%;
+    /* width:30%; */
+    
+}
+#line1_p > .hr_p {
+    height:2px;
+    width:240px;
+    padding-left:20px;
+    margin-top:85px;
+    background-color:white;
+}
+#pu_h {
+    margin-left:7px;
+    padding-bottom:20px;
+    width:45%;
+    text-align:center;
+    font-size:30px;
+    font-family:'ENGRAVERS MT';
+    font-weight:bolder;
+    color:white;
+    letter-spacing:1px;
+   /*  line-height:40px; */
+}
+#line2_p > .hr_p {
+    height:2px;
+    width:240px;
+    margin-top:85px;
+    margin-left:7px;
+    padding-right:20px;
+    background-color:white;
+}
+.starting 
+{   display:flex;
+    height:40%;
+    width:67%;
+    margin-left:19%;
+    margin-top:3%;
+    background-color:white;
+    border-radius:20px;
+    padding:10px;
+}
+.col1_im {
+    height:100%;
+    width:30%;
+    padding-top:30px;
+    padding-left:7px;
+    background-repeat: no-repeat;
+}
+
+.col2_det {
+    height:100%;
+    width:70%;
+    padding:15px;
+
+}
+.col2_det > .reality {
+    text-align:center;
+    font-size:40px;
+    font-family:'Monotype Corsiva';
+    font-weight:bold;
+    color: #333333;
+    letter-spacing:1px;
+}
+.col2_det > .reality_detail {
+    text-align:center;
+    font-size:20px;
+    font-family:'Cambria';
+    color: #333333;
+    letter-spacing:1px;
+}
+.see_button {
+    height:50px;
+    width:140px;
+    background-color: #DC5B22;
+    color: white;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    margin-left:47%;
+    margin-top:6%;
+    padding-top:9px;
+    border-radius:25px;
+}
+.see_button:hover {
+    cursor:pointer;
+    background-color:#C04A22;
+}
+
+

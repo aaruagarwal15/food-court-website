@@ -1,0 +1,191 @@
+body{
+    background-color: #F5F5F5;
+}
+.outerr {
+    width:55px;
+    height:100%;
+    margin:0px;
+    z-index:5;
+    position: fixed;
+    background-color:whitesmoke;
+    display: inline-block;
+    top:0px;
+}
+.link_vert
+{
+    margin-top: 13vh;
+}
+.outerr > ul {
+    list-style-type: none;
+    padding:10px;
+
+}
+.outerr > ul > li {
+    padding-bottom:60px; 
+}
+.icon {
+    height:30px;
+    width:30px;
+    padding-top: 2px; 
+    padding-left: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 20%;
+}
+.back,.back1,.back2,.back3 {
+    background-color: rgba(209,84,33,0.7);
+    height:0px;
+    width:0px;
+    border-radius: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-weight: bold;
+    transition: width 0.3s, color 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0.0)
+
+}
+.icon:hover{
+    background-color: rgba(108,19,25,0.7);
+}
+.icon:hover > .back
+{
+    height:32px;
+    width:120px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    position: absolute;
+}
+.icon:hover > .back1
+{
+    height:32px;
+    width:175px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    position: absolute;
+}
+.icon:hover > .back2
+{
+    height:32px;
+    width:143px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    position: absolute;
+}
+.icon:hover > .back3
+{
+    height:32px;
+    width:140px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    position: absolute;
+}
+.back_c {
+    position:absolute;
+    height:400px;
+    width:100%;
+    background-color: blueviolet;
+    background-image: url(images/back_c1.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.fade_c {
+    position:absolute;
+    height:400px;
+    width:100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.logo_c {
+    height:130px;
+    width:130px;
+    margin-left:45%;
+    margin-top:2%;
+    border-radius:50%;
+    background-image: url(images/logos.jpg);
+}
+.contact_h {
+    height:250;
+    width:100%;
+    margin-top:5%;
+    text-align:center;
+    color:white;
+    font-size:50px;
+    font-family:'ENGRAVERS MT';
+
+
+}
+.container_contact {
+    display:flex;
+    margin-top:34%;
+    height:650px;
+    width:100%;
+}
+.col1_c {
+    width:500px;
+    height:650px;
+    margin-left:50px;
+}
+.col2_c {
+    width:500px;
+    height:650px;
+    margin-left:200px;
+}
+ .co_c {
+    
+    text-align:center;
+    color:#333333;
+    font-size:55px;
+    font-family:'Monotype Corsiva';
+    font-weight:bolder;
+}
+.co_c2 {
+   
+    
+    color:#333333;
+    font-size:55px;
+    font-family:'Monotype Corsiva';
+    font-weight:bolder;
+}
+.addp {
+   
+    color:#333333;
+    font-size:30px;
+    font-family:'cambria';
+}
+.form_c {
+    height: 450px;
+    width: 500px;
+}
+.form_c > input {
+    margin-left:120px;
+    padding-left:10px; 
+    margin-top:10px;
+    border-radius:5px;
+}
+.subbtn {
+    margin-left:250px;
+    height:40px;
+    width:120px;
+    text-align: center;
+    border-radius:20px;
+    background-color: #E94E3D;
+    color:white;
+    font-size:25px;
+    font-family:'Cambria';
+    font-weight:bold;
+}
+.subbtn:hover {
+    cursor: pointer;
+    background-color: #E93F3F;
+}

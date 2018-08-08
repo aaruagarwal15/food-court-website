@@ -1,0 +1,175 @@
+body { 
+    overflow-y:hidden;
+    overflow-x:hidden;    
+    background-image: url(images/bg1.jpg);
+   
+}
+/* ::-webkit-scrollbar {
+    display:none;
+} */
+.outerr {
+    width:55px;
+    height:100%;
+    margin:0px;
+    z-index:5;
+    position: fixed;
+    background-color: rgba(0,0,0,0);
+    display: inline-block;
+    top:0px;
+}
+.link_vert
+{
+    margin-top: 20vh;
+}
+.outerr > ul {
+    list-style-type: none;
+    padding:10px;
+
+}
+.outerr > ul > li {
+    padding-bottom:60px; 
+}
+.icon {
+    height:30px;
+    width:30px;
+    padding-top: 2px; 
+    padding-left: 4px;
+    border-radius: 20px;
+    position: absolute;
+    right: 20%;
+}
+.back,.back1,.back2,.back3 {
+    background-color: rgba(209,84,33,0.7);
+    height:0px;
+    width:0px;
+    border-radius: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-weight: bold;
+    transition: width 0.3s, color 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0.0)
+
+}
+.icon:hover{
+    background-color: rgba(108,19,25,0.7);
+}
+.icon:hover > .back
+{
+    height:32px;
+    width:120px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    position: absolute;
+}
+.icon:hover > .back1
+{
+    height:32px;
+    width:175px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    position: absolute;
+}
+.icon:hover > .back2
+{
+    height:32px;
+    width:143px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    position: absolute;
+}
+.icon:hover > .back3
+{
+    height:32px;
+    width:140px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    position: absolute;
+}
+.gallery_f {
+    display:flex;
+    position:fixed;
+    height:200px;
+    width:100%;
+   
+}
+.logo_g {
+    margin-left:10%;
+    margin-top:30px;
+    border-radius:50%;
+    height:130px;
+    width:130px;
+    background-image: url(images/logos.jpg);
+}
+.gallery_h {
+    margin-left:2%;
+    margin-top:65px;
+    width:80%;
+    height:200px;
+    font-size:40px;
+    font-weight: bold;
+    font-family:'ENGRAVERS MT';
+    color:#333333;
+    letter-spacing: 1px;
+}
+
+.container_p {
+    width:2980px;
+    position:absolute;
+    top:40%;
+    padding-left:40px;
+    margin-top:25px;
+}
+.sections {
+    display:flex ;
+    display: block;
+    width:400px;
+    height:300px;
+    float: left;
+    margin-left:5px;
+    border:gray 7px solid;
+}
+
+#p1{
+    background-image: url(images/g1s.jpg);
+    margin-left:50px;
+    transform:rotate(-12deg);
+}
+
+
+#p2 {
+    background-image: url(images/g2s.jpg);
+    transform:rotate(7deg);
+  
+}
+#p3 {
+    background-image: url(images/g3s.jpg);
+    transform:rotate(-12deg);
+}
+#p4 {
+    background-image: url(images/g4s.jpg);
+    transform:rotate(7deg);
+}
+#p5 {
+    background-image: url(images/g5s.jpg);
+    transform:rotate(-12deg);
+}
+#p6 {
+    background-image: url(images/g6s.jpg);
+    transform:rotate(7deg);
+} 
+#p7 {
+    background-image: url(images/g7s.jpg);
+    transform:rotate(-12deg);
+}  
